@@ -1,7 +1,7 @@
 from jieba import analyse
 from .ac_machine import AcMachine
 
-with open(r'D:/Desktop/特赞/DAM3_code/code_jin/keywords_statistics/dict/custom20211216.dic', 'r',encoding="utf-8") as f:
+with open(r'keywords_statistics/dict/custom20211216.dic', 'r',encoding="utf-8") as f:
     dict_tezign=[i.replace("\n","") for i in f.readlines()]
 def ac_machine_extract(text,dict_tezign):#基于词典匹配的关键词提取，选用ac自动机算法（最速算法）
     ac_machine=AcMachine(dict_tezign)
