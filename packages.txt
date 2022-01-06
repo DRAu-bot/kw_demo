@@ -1,5 +1,5 @@
-pip install jieba
-pip install pyahocorasick
-pip install tqdm
-pip install pandas
-pip install numpy
+jieba
+pyahocorasick
+tqdm
+pandas
+numpy
